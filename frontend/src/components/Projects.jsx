@@ -7,7 +7,7 @@ export default function Projects() {
         {/*project 1 */}
         <div className="project-card">
             <div className="image">
-              <img src="\public\images\PokeInput_Screenshot.PNG" 
+              <img src="\images\PokeInput_Screenshot.PNG" 
               width="100" height="100" alt="A screenshot of the PokeInput DB webpage" />
             </div>
             <div className="project-text">
@@ -28,7 +28,7 @@ export default function Projects() {
         {/*project 2 */}
         <div className="project-card">
           <div className="image">
-            <img src="\public\images\KnightsofJS_Screenshot.PNG" width="100" height="100" alt="A screenshot of the portfolio webpage" />
+            <img src="\images\KnightsofJS_Screenshot.PNG" width="100" height="100" alt="A screenshot of the portfolio webpage" />
           </div>
           <div className="project-text">
             <h3>Knights of JavaScript</h3>
@@ -45,7 +45,7 @@ export default function Projects() {
         {/*project 3 */}
         <div className="project-card">
           <div className="image">
-            <img src="\public\images\IntrotoPrisma_Screenshot.PNG" width="100" height="100" alt="A screenshot of the Intro_to_Prisma Assignment" />
+            <img src="\images\IntrotoPrisma_Screenshot.PNG" width="100" height="100" alt="A screenshot of the Intro_to_Prisma Assignment" />
           </div>
           <div className="project-text">
             <h3>Intro to Prisma</h3>
