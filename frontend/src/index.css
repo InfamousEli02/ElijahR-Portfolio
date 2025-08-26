@@ -1,68 +1,198 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
+  font-family: sans-serif;
   margin: 0;
+  line-height: 1.6;
+  background-color:#8aa7e6;
+  color: #333;
+}
+
+.header {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: space-between;
+  font-family: monospace;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: white;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-button {
+.left-links a {
+  font-size: 1.5rem;
+}
+
+.left-links a:hover {
+  color: #ffd700;
+}
+
+.right-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.right-links a {
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.right-links a:hover {
+  color: #ffd700;
+}
+
+.content {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0px 4px 4px black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  margin-bottom: 1rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+h1, h2, h3 {
+  color: #0056b3;
+  font-family: monospace;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Style the project card container */
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the buttons */
+.project-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+/* Common button styling */
+.project-buttons a {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Live Demo button styling */
+.live-link-button {
+  background-color: #0056b3;
+  color: white;
+}
+
+.live-link-button:hover {
+  background-color: #004085;
+}
+
+/* GitHub button styling */
+.github-link-button {
+  background-color: #333;
+  color: white;
+}
+
+.github-link-button:hover {
+  background-color: #555;
+}
+
+/* Image styling within the project card */
+.project-card img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0056b3;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #004085;
+}
+
+.confirmation-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contactLinks img {
+  width: 40px; 
+  height: 40px; 
+}
+
+.contactLinks a {
+  transition: transform 0.3s ease;
+  
+}
+
+.contactLinks a:hover {
+  transform: translateY(-5px); /* Add a hover effect */
 }
