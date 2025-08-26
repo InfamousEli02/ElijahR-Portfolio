@@ -3,6 +3,8 @@
 
 This is my personal portfolio website. This project serves as a showcase of my skills and a platform to learn new web development technologies. The website is built as a single-page application (SPA) using React and Vite.
 
+[Live Netlify link](https://elijahr-portfolio.netlify.app/)
+
 ## Features
 
 - **Single-Page Application (SPA)**
@@ -12,7 +14,7 @@ This is my personal portfolio website. This project serves as a showcase of my s
 This includes a:
 - **About page:** Provides additional information on me, my background, and my skills
 - **Project Showcase:** A dedicated section to display my web development projects with links to live demos and source code.
-- **Contact Form:** A direct way for visitors to get in touch with me (via a `mailto` link).
+- **Contact Form:** A direct way for visitors to get in touch with me (future update: via a `mailto` link).
 - **Social Links:** Easy access to my professional profiles on GitHub and LinkedIn.
 
 ## Getting Started
@@ -20,7 +22,7 @@ This includes a:
 To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
-    Within your terminal, navigate to the directory where you store projects, and replace"" with the actual URL of the Git repository: git clone <repository-url>
+    Within your terminal, navigate to the directory where you store projects, and replace "repository-url" with the actual URL of the Git repository: `git clone <repository-url>`
 
 2.  **Navigate to the project directory:**
     `cd your-repository-name`
