@@ -221,3 +221,9 @@ input[type="submit"]:hover {
 .contactLinks a:hover {
   transform: translateY(-5px); /* Add a hover effect */
 }
+
+.linksCredit {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+}

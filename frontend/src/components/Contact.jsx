@@ -70,6 +70,13 @@ export default function Contact() {
           <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Profile" />
         </a>
       </div>
+      <div className="linksCredit">
+        <p>Credit for these icons belong to:</p>
+        <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+        <a href="https://brand.linkedin.com/downloads" title="linkedin logos">LinkedIn logo provided by LinkedIn</a>
+        <a href="https://github.com/logos" title="github logos">Github logos provided by Github</a>
+        
+      </div>
     </section>
   );
 };
