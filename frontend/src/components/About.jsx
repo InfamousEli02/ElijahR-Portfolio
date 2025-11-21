@@ -23,7 +23,8 @@ export default function About() {
         <li>Computer Skills (emailing, slide-making, internet)</li>
       </ol>
       <h3>Resume</h3>
-      <p>Here is a pdf copy of my <a href="/Elijah Reed Copy of IF25_ Resume Template.pdf" target="_blank" rel="noopener noreferrer">resume</a>.</p>
+      <p>For more information about me</p>
+      <p>Here is a pdf copy of my <a href="/Reed_Elijah_Resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>.</p>
     </section>
   );
 };
