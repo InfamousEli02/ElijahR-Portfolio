@@ -38,3 +38,4 @@ To run this project locally, follow these steps:
 ## Credits
 - Github: Github Icon
 - LinkedIn: LinkedIn Icon
+- <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
